@@ -53,7 +53,7 @@
 </head>
 <body>
   <div class="terminal">
-    <div class="dim">> We build Energy-efficient Event-driven Edge AI systems</div>
+    <div class="typing">>We build Energy-efficient Event-driven Edge AI systems.</div>
   </div>
 </body>
 </html>
