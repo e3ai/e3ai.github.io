@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -54,10 +53,7 @@
 </head>
 <body>
   <div class="terminal">
-    <div class="dim">>e3.ai</div>
-    <br />
-    <div class="typing">>We build Energy-efficient Event-driven Edge AI systems.</div>
+    <div class="dim">> We build Energy-efficient Event-driven Edge AI systems</div>
   </div>
 </body>
 </html>
-
