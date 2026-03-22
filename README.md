@@ -8,32 +8,43 @@
   <style>
     body {
       margin: 0;
-      background: #000;
-      color: #00ff9c;
+      background: #ffffff;
+      color: #111111;
       font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
+      padding: 16px;
+      box-sizing: border-box;
     }
 
     .terminal {
-      width: 90%;
+      width: 100%;
       max-width: 800px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 480px) {
+      .terminal {
+        font-size: 14px;
+      }
     }
 
     .line {
       white-space: nowrap;
       overflow: hidden;
-      border-right: 2px solid #00ff9c;
+      border-right: 2px solid #111111;
       animation: blink 1s step-end infinite;
     }
 
     .typing {
       display: inline-block;
       overflow: hidden;
-      border-right: 2px solid #00ff9c;
+      border-right: 2px solid #111111;
       white-space: nowrap;
+      max-width: 100%;
       animation: typing 3s steps(40, end), blink 1s step-end infinite;
     }
 
@@ -47,7 +58,7 @@
     }
 
     .dim {
-      color: #008f5a;
+      color: #666666;
     }
   </style>
 </head>
@@ -57,3 +68,4 @@
   </div>
 </body>
 </html>
+
